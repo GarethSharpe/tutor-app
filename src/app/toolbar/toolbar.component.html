@@ -1,0 +1,45 @@
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<md-toolbar color="primary">
+
+	<button md-button onclick="window.open('http://eepurl.com/cHlMtb', '_blank')"> 
+		<md-icon>person_add</md-icon>
+		<strong>SIGN UP FREE</strong> 
+	</button>
+
+	<form style="display: inline" action="/#tutors" method="get">
+		<button md-button> 
+		<md-icon>group</md-icon> TUTORS
+	</button>
+	</form>
+
+	<button md-button onclick="window.open('https://calendar.google.com/calendar/embed?src=unv4o10kj74njpse81ldsdckq8%40group.calendar.google.com&ctz=America/Toronto', '_blank')">
+	<md-icon>event</md-icon> SCHEDULE 
+	</button>
+
+	<span style="flex: 1 1 auto;"></span>
+
+	<button md-icon-button [mdMenuTriggerFor]="menu">
+	<md-icon>more_vert</md-icon>
+	</button>
+	<md-menu #menu="mdMenu">
+	  	<button md-menu-item onclick="window.open('https://www.kitchenergospelhall.com/', '_blank')">
+	    	<md-icon>web</md-icon>
+	    	<span>Website</span>
+	  	</button>
+	  	<button md-menu-item onclick="window.open('https://www.facebook.com/KitchenerGospelHall/', '_blank')">
+	    	<md-icon>account_circle</md-icon>
+	    	<span>Facebook</span>
+	  	</button>
+	  	<button md-menu-item onclick="window.open('http://instagram.com/kghyouthgirls', '_blank')">
+	    	<md-icon>camera</md-icon>
+	    	<span>Instagram</span>
+	  	</button>
+	  	<button md-menu-item onclick="window.open('https://www.google.ca/maps/place/Kitchener+Gospel+Hall/@43.4115132,-80.4593009,17z/data=!3m1!4b1!4m5!3m4!1s0x882bf54a824fa5e1:0xd2ea5741092e3b9a!8m2!3d43.4115093!4d-80.4571069', '_blank')">
+    	<md-icon>navigation</md-icon>
+    	<span>Find Us</span>
+  		</button>
+	</md-menu>	
+
+</md-toolbar>
+

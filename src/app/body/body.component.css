@@ -1,0 +1,68 @@
+.first-crop-circle {
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+    padding-top: 50%;
+    background-image: url(/assets/math.jpg);
+    background-size: cover;
+}
+
+.second-crop-circle {
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+    padding-top: 50%;
+    background-image: url(/assets/bible.jpg);
+    background-size: cover;
+}
+
+.third-crop-circle {
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+    padding-top: 50%;
+    background-image: url(/assets/future.jpg);
+    background-size: cover;
+}
+
+.fourth-crop-circle {
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+    padding-top: 50%;
+    background-image: url(/assets/books.jpg);
+    background-size: cover;
+}
+
+.text-left > /deep/ figure {
+	font-family: 'Artifika', serif;
+	color: dimgrey;
+	font-size: 18px;
+	padding-right: 30%;
+	justify-content: flex-start !important; 
+}
+
+.text-right > /deep/ figure {
+	font-family: 'Artifika', serif;
+	color: dimgrey;
+	font-size: 18px;
+	padding-left: 30%;
+	justify-content: flex-end !important; 
+}
+
+
+.text-title-left > /deep/ figure {
+	font-family: 'Artifika', serif;
+	color: dimgrey;
+	font-weight: bold;
+	font-size: 40px;
+	justify-content: left !important; 
+}
+
+.text-title-right > /deep/ figure {
+	font-family: 'Artifika', serif;
+	color: dimgrey;
+	font-weight: bold;
+	font-size: 40px;
+	justify-content: flex-end !important; 
+}

@@ -1,0 +1,19 @@
+.banner-spacer {
+	font-family: 'Artifika', serif;
+	flex: 1 1 auto;
+	text-align: center;
+	font-size: 400%;
+}
+
+.subbanner-spacer {
+	font-family: 'Artifika', serif;
+	flex: 1 1 auto;
+	text-align: center;
+	font-size: 100%;
+}
+
+.button-row {
+	justify-content: center;
+	align-items: center;
+	font-size: 100%;
+}

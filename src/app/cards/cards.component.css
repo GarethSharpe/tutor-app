@@ -1,0 +1,34 @@
+.card {
+	width: 30%;
+	margin: 20px;
+}
+
+.card-row {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+.computer-avatar {
+  background-image: url('/assets/computer.png');
+  background-size: cover;
+}
+
+.memory-avatar {
+  background-image: url('/assets/memory.png');
+  background-size: cover;
+}
+
+.functions-avatar {
+  background-image: url('/assets/functions.png');
+  background-size: cover;
+}
+
+.city-avatar {
+  background-image: url('/assets/city.png');
+  background-size: cover;
+}
+
+.text {
+	justify-content: space-around;
+}
