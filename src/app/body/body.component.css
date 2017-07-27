@@ -37,7 +37,7 @@
 .text-left > /deep/ figure {
 	font-family: 'Artifika', serif;
 	color: dimgrey;
-	font-size: 18px;
+	font-size: 1.3vw;
 	padding-right: 30%;
 	justify-content: flex-start !important; 
 }
@@ -45,7 +45,7 @@
 .text-right > /deep/ figure {
 	font-family: 'Artifika', serif;
 	color: dimgrey;
-	font-size: 18px;
+	font-size: 1.3vw;
 	padding-left: 30%;
 	justify-content: flex-end !important; 
 }
@@ -55,7 +55,7 @@
 	font-family: 'Artifika', serif;
 	color: dimgrey;
 	font-weight: bold;
-	font-size: 40px;
+	font-size: 3vw;
 	justify-content: left !important; 
 }
 
@@ -63,6 +63,6 @@
 	font-family: 'Artifika', serif;
 	color: dimgrey;
 	font-weight: bold;
-	font-size: 40px;
+	font-size: 3vw;
 	justify-content: flex-end !important; 
 }

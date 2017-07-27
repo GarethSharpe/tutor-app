@@ -2,14 +2,14 @@
 	font-family: 'Artifika', serif;
 	flex: 1 1 auto;
 	text-align: center;
-	font-size: 400%;
+	font-size: 6vw;
 }
 
 .subbanner-spacer {
 	font-family: 'Artifika', serif;
 	flex: 1 1 auto;
 	text-align: center;
-	font-size: 100%;
+	font-size: 1.5vw;
 }
 
 .button-row {
