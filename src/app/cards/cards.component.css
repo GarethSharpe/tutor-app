@@ -1,6 +1,6 @@
 .card {
-	width: 30%;
-	margin: 20px;
+	width: 25%;
+	margin: 2%;
 }
 
 .card-row {
@@ -29,6 +29,17 @@
   background-size: cover;
 }
 
+.create-avatar {
+  background-image: url('/assets/create.png');
+  background-size: cover;
+}
+
+.equalizer-avatar {
+  background-image: url('/assets/equalizer.png');
+  background-size: cover;
+}
+
 .text {
-	justify-content: space-around;
+  font-size: 1vw;
+  line-height: 2;
 }
